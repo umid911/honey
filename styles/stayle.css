@@ -196,6 +196,7 @@
     margin: 100px auto;
     align-items: center;
 }
+
 .main-text3{
     font-family: 'Kodchasan';
     font-style: normal;
@@ -213,6 +214,8 @@
     line-height: 160%;
     color: black;
     margin-top: 30px;
+    max-width: 548px;
+    width: 100%;
 }
 .link-main2{
     font-family: 'Kodchasan';

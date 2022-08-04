@@ -1,0 +1,6 @@
+@media(max-width: 1400px){
+    .info-main, .info-main2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
