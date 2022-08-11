@@ -4,3 +4,45 @@
         justify-content: center;
     }
 }
+@media(max-width:992px){
+    .img-4{
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+    .main1, .main2{
+        width: 100%;
+    }
+    .box{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .nav{
+        display: block;
+    }
+}
+@media(max-width: 768px){
+    .header-text, .header-text2, .header-text3{
+        font-size: 70px;
+    }
+    .link-button{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    .main-box3{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .footer-box{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+@media(max-width: 480px){
+    .link-title{
+        padding: 0;
+    }
+}

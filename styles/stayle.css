@@ -49,14 +49,14 @@
 
 }
 .header-content{
-    background: url('../images/header\ .bg.png') right bottom /cover;
+    background: url('../images/header\ .bg.png') right  bottom /cover;
     height: 865px;
-    
     border-radius: 30px;
     
 }
 .container-all{
-    width: 1146px;
+    max-width: 1146px;
+    width: 100%;
     margin: 0 auto;
 
 
@@ -96,6 +96,7 @@
 
 .link-button{
     margin-top:  70px;
+    
     
 }
 .header-button{
@@ -161,7 +162,7 @@
     font-size: 45px;
     line-height: 145%;
     color: #000000;
-    width: 548px;
+    max-width: 548px;
 }
 .text-p{
     font-family: 'Kodchasan';
@@ -170,7 +171,7 @@
     font-size: 22px;
     line-height: 160%;
     color: #0B0B0B;
-    width: 516px;
+    max-width: 516px;
     padding-top: 30px;
     
 }
@@ -192,7 +193,7 @@
 }
 .info-main2{
     display: flex;
-    width: 1378px;
+    max-width: 1378px;
     margin: 100px auto;
     align-items: center;
 }
@@ -283,7 +284,8 @@
 }
 .box-info{
     display: flex;
-    width: 558px;
+    max-width: 558px;
+    width: 100%;
     height: 305px;
     align-items: center;
     padding-left: 30px;
@@ -320,7 +322,8 @@
     height: 28.63px;
 }
 .footer-title{
-    width: 269px;
+    max-width: 269px;
+    width: 100%;
     font-family: 'Kodchasan';
     font-weight: 500;
     font-size: 14px;
